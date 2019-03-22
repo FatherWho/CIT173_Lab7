@@ -1,0 +1,435 @@
+    1  ls
+    2  mkdir CIT173_Lab5
+    3  nano /etc/fstab
+    4  ls
+    5  cd Music
+    6  ls
+    7  cd ~
+    8  sudo nano /etc/fstab
+    9  RTArocks1
+   10  sudo nano /etc/fstab
+   11  clear
+   12  sudi -i
+   13  sudo -i
+   14  sudo mount > ~/CIT173_Lab5/my-mounts-txt
+   15  ls
+   16  cd CIT173_Lab5/
+   17  ls
+   18  cp /etc/fstab > my-fstab.txt
+   19  cp /etc/fstab  my-fstab.txt
+   20  ls
+   21  susudo dd if=/dev/random of=/mnt/data/data_file1.dat bs cunt 1k
+   22  sudo dd if=/dev/random of=/mnt/data/data_file1.dat bs cunt 1k
+   23  ls
+   24  cd CIT173_Lab5/
+   25  sudo dd if=/dev/random of=/mnt/data/data_file1.dat bs=1  count 1k
+   26  ls ~/CIT173_Lab5/ -al
+   27  /etc/fstab
+   28  sudo /etc/fstab
+   29  gedit /etc/fstab
+   30  nano /etc/fstab
+   31  sudo nano /etc/fstab
+   32  reboot
+   33  sudo nano /etc/fstab
+   34  ls
+   35  cd CIT173_Lab5/
+   36  ls
+   37  df
+   38  df > /my-disk-usage.txt
+   39  sudo df > /my-disk-usage.txt
+   40  sudo df > my-disk-usage.txt
+   41  ls
+   42  cat /dev/random
+   43  sudo dd if=/dev/random of=/mnt/data/data_file1.dat bs=1 count=1k
+   44  sudo dd if=/dev/random of=/mnt/data/data_file2.dat bs=1 count=1k
+   45  sudo dd if=/dev/random of=/mnt/backup/backup_file1.dat bs=1 count=1k
+   46  sudo dd if=/dev/random of=/mnt/backup/backup_file2.dat bs=1 count=1k
+   47  ls
+   48  ls -al /mnt/data/
+   49  ls -al /mnt/backup/
+   50  cp /mnt/*/*.dat ~/CIT173_lab5/
+   51  cd CIT173_Lab5/
+   52  cp /mnt/*/*.dat 
+   53  cp /mnt/*/*.dat
+   54  ls
+   55  cp /mnt/*/*.dat ~/CIT173_lab5/
+   56  sudo cp /mnt/*/*.dat ~/CIT173_lab5/
+   57  cp /mnt/*/*.dat
+   58  cp /mnt/*/data_file1.dat
+   59  cp /mnt/*/data_file1.dat ~/CIT173_lab5
+   60  cp /mnt/*/data_file2.dat ~/CIT173_lab5
+   61  cp /mnt/*/backup_file1.dat ~/CIT173_lab5
+   62  cp /mnt/*/backup_file2.dat ~/CIT173_lab5
+   63  ls
+   64  cp /mnt/*/data_file1.dat ~/CIT173_lab5/
+   65  cp /mnt/*/data_file1.dat ~/CIT173_lab5
+   66  sudo cp /mnt/*/data_file1.dat ~/CIT173_lab5
+   67  ls
+   68  cd ~
+   69  mkdir CIT173_LabTEST
+   70  scumy
+   71  scumi
+   72  cat /proc/version
+   73  ls
+   74  caat /proc/version > ~/CIT173_Lab5/my-procfs.txt
+   75  cat /proc/version > ~/CIT173_Lab5/my-procfs.txt
+   76  cat /proc/cpuinfo >> ~/CIT173_Lab5/my-procfs.txt
+   77  cat /proc/meminfo >> ~/CIT173_Lab5/my-procfs.txt
+   78  cat /proc/' >> ~/CIT173_Lab5/my-procfs.txt
+   79  cat /proc/loadavg >> ~/CIT173_Lab5/my-procfs.txt
+   80  cat /proc/
+   81  cat /proc/' >> ~/CIT173_Lab5/my-procfs.txt
+   82  cat /proc/loadavg >> ~/CIT173_Lab5/my-procfs.txt
+   83  cat /proc
+   84  cat /proc/
+   85  cat /proc/loadavg
+   86  cd /proc/21A
+   87  ls
+   88  cd ~
+   89  top
+   90  ps aux
+   91  cd ~q
+   92  cat /proc/
+   93  cd ?proc/
+   94  cd /proc/
+   95  ls
+   96  cat /proc/uptime >> ~/CIT173_Lab5/my-procfs.txt
+   97  cat /proc/fb >> ~/CIT173_Lab5/my-procfs.txt
+   98  ps
+   99  cat /proc/2246/limits >> ~/CIT173_Lab5/my-procfs.txt
+  100  cd ~
+  101  sudo -i
+  102  cd CIT173_Lab
+  103  cd CIT173_Lab5
+  104  > turn-on-capslock-led.txt
+  105  ls
+  106  nano turn-on-capslock-led.txt 
+  107  sudo -i
+  108  ls
+  109  history > ~/CIT173_Lab5/my-command-history.txt
+  110  ls
+  111  git init
+  112  git remote add origin https://github.com/FatherWho/CIT173_lab5.git
+  113  git add --all
+  114  git commit -m "Lab assignment 5"
+  115  git push origin master
+  116  mkdir CIT173_Lab6
+  117  cd CIT173_Lab6
+  118  sudo groupadd actors
+  119  sudo groupadd directors
+  120  sudo groupadd producers
+  121  ls
+  122  sudo useradd -m mhamill
+  123  sudo useradd -m hford
+  124  sudo useradd -m cfisher
+  125  sudo useradd -m glucas
+  126  sudo useradd -m gkurtz
+  127  sudo passwd mhamill luke
+  128  sudo passwd mhamill
+  129  sudo usermod -c "Mark Hamill" mhamill
+  130  sudo usermod -a -G actors mhamill
+  131  sudo passwd hford
+  132  sudo passwd cfisher
+  133  sudo passwd glucas
+  134  sudo passwd gkurtz
+  135  sudo usermod -c "Harrison Ford" hford
+  136  sudo usermod -c "Carrie Fisher" cfisher
+  137  sudo usermod -c "George Lucas" glucas
+  138  sudo usermod -c "Gary Kurtz" gkurtz
+  139  sudo usermod -a -G actors hford
+  140  sudo usermod -a -G actors cfisher
+  141  sudo usermod -a -G producers
+  142  sudo usermod -a -G producers glucas
+  143  sudo usermod -a -G producers gkurtz
+  144  sudo usermod -a -G directors glucas
+  145  cp /etc/passwd ~/CIT173_lab6/
+  146  cp /etc/passwd ~/CIT173_lab6
+  147  cp /etc/groups ~/CIT173_lab6
+  148  cp /etc/group ~/CIT173_lab6
+  149  tail /etc/group
+  150  history > ~/CIT173_Lab6/ex1-command-history.txt
+  151  cd ~
+  152  wget
+  153  wget http://github.com/RenoTechnologyAcademy/CIT173_lab6_Files/archive/master.tar.gz
+  154  ls
+  155  cd Music/
+  156  ls
+  157  cd ~
+  158  cd CIT173_Lab6
+  159  ls
+  160  ls -al
+  161  cp /etc/group ~/CIT173_lab6/
+  162  tar -xvzf master.tar.gz
+  163  cd ~
+  164  tar -xvzf master.tar.gz
+  165  ls
+  166  cd CIT173_Lab6_Files-master/
+  167  ls
+  168  cd ~
+  169  cd /var
+  170  ls
+  171  mkdir StarWars
+  172  sudo mkdir StarWars
+  173  ls
+  174  sudo chmod a+rwx /var/StarWars/
+  175  cd StarWars/
+  176  mkdir finance
+  177  mkdir directing
+  178  mkdir creative
+  179  ls
+  180  cd ~
+  181  cd /var
+  182  cd StarWars/
+  183  cd ~
+  184  cd CIT173_Lab6_Files-master/
+  185  mv star-wars-jou.txt /var/StarWars/finance
+  186  cd StaWars
+  187  cd Var
+  188  cd /var
+  189  cd StarWars/
+  190  sudo chmod 777 *
+  191  cd ~
+  192  cd CIT173_Lab6_Files-master/
+  193  mv star-wars-journal.txt /var/StarWars/directing
+  194  mv star-wars-script.txt /var/StarWars/creative
+  195  ls
+  196  cd ~
+  197  cd /var
+  198  cd StarWars/
+  199  ls
+  200  cd creative/
+  201  ls
+  202  cd ~
+  203  cd /var
+  204  cd StarWars/
+  205  sudo chow -R gkurtz:producers finance/
+  206  sudo chmod -R 750 finance/
+  207  ls -al
+  208  sudo chown _R glucas:directors directing/
+  209  sudo chown -R glucas:directors directing/
+  210  sudo chmod -R 775 directing/
+  211  sudo chown -R glucas:actors creative/
+  212  sudo chmod -R 750 creative/
+  213  history > ~/CIT173_Lab6/ex2-command-history.txt
+  214  su mhamill
+  215  cd /var
+  216  sudo tar -czvf StarWars.tar /var/Starwars/
+  217  sudo tar -cvf StarWars.tar /var/Starwars/
+  218  sudo tar -cvf StarWars.tar StarWars/
+  219  ls
+  220  mv StarWars.tar ~/CIT173_Lab6
+  221  sudo cp StarWars.tar ~/CIT173_Lab6
+  222  cd ~
+  223  cd CIT173_Lab6
+  224  ls
+  225  git init
+  226  git remote add origin https://github.com/FatherWho/CIT173_Lab6.git
+  227  git add --all
+  228  git commit -m "Lab assignment 6"
+  229  git push origin master
+  230  mkdir CIT173_Lab7
+  231  cd /boot/grub2
+  232  sudo cd /boot/grub2/
+  233  sudo -i
+  234  man wc
+  235  top
+  236  man loadmod
+  237  man lsmod
+  238  man insmod
+  239  man modprobe
+  240  man sed
+  241  man find
+  242  man search
+  243  man grep
+  244  man del
+  245  man rm
+  246  man rmdir
+  247  man tail
+  248  man mksf
+  249  man mkfs
+  250  man ntfs
+  251  man fdisk
+  252  man mkfs
+  253  man usermod
+  254  usermod -a -g actors glucas
+  255  usermod -a -G actors glucas
+  256  sudo usermod -a -G actors glucas
+  257  man chmod
+  258  cd /dev/
+  259  ls
+  260  man yum
+  261  man rpm
+  262  apt
+  263  man apt
+  264  man dpkg
+  265  man yum
+  266  man tar
+  267  man cpio
+  268  cd /etc/groups
+  269  cd etc
+  270  cd /etc/
+  271  ls
+  272  nano group
+  273  nano ftsab
+  274  nano mount
+  275  nano mounts
+  276  nano dev
+  277  nano fstab
+  278  cd /
+  279  ls
+  280  cd ~
+  281  ls
+  282  man replace
+  283  man chmod
+  284  cd CIT173_Lab6
+  285  ls
+  286  nano ex2-command-history.txt 
+  287  man chow
+  288  chown
+  289  nano ex2-command-history.txt 
+  290  man chown
+  291  nano ex2-command-history.txt 
+  292  cd /var/
+  293  ls
+  294  cd StarWars/
+  295  ls
+  296  sudo chown -R actors finance/
+  297  sudo chown -R glucas:actors finance/
+  298  man find
+  299  convert
+  300  help
+  301  ls
+  302  cd ~
+  303  ls
+  304  cd CIT173_Lab5
+  305  ls
+  306  nano my-command-history.txt 
+  307  man convert
+  308  man replace
+  309  man rplc
+  310  man rl
+  311  man ch
+  312  man text
+  313  text
+  314  q
+  315  cd
+  316  man cd
+  317  man pwd
+  318  man cwd
+  319  man wd
+  320  man ln
+  321  man nl
+  322  man df
+  323  man wc
+  324  man ps
+  325  man crp
+  326  man procs
+  327  man sed
+  328  cd /var/
+  329  ls
+  330  cd StarWars/
+  331  nano script
+  332  l
+  333  ls
+  334  nano creative
+  335  cd creative/
+  336  ls
+  337  sudo cd creative/
+  338  ls
+  339  cd cr
+  340  cd creative/
+  341  ls > test.txt
+  342  ls
+  343  nano test.txt 
+  344  ls
+  345  sed -i bug --in place dug test.txt 
+  346  man sed
+  347  sed -i bug test.txt 
+  348  sed -i bug buga test.txt 
+  349  cd /mnt/
+  350  ls
+  351  sudo mkdir /mnt/manjaro
+  352  sudo mount /dev/sdc1 /mnt/manjaro/
+  353  ls
+  354  cd ~
+  355  ls
+  356  cd /dev/
+  357  ls
+  358  cd /mnt/
+  359  cd manjaro/
+  360  ls
+  361  cd boot/
+  362  ls
+  363  cd grub/
+  364  sudo cat grub.cfg
+  365  /set root
+  366  sudo cat grub.cfg
+  367  ls
+  368  sudo nano grub.cfg
+  369  sudo less grub.cfg
+  370  cd ~
+  371  sudo umount /mnt/manjaro
+  372  cd ~
+  373  clear
+  374  sudo umount /mnt/manjaro
+  375  man umount
+  376  man umount
+  377  sudo umount -f /mnt/manjaro
+  378  man umount
+  379  sudo umount -f /mnt/manjaro
+  380  cd /mnt/manjaro
+  381  ls
+  382  cd ~
+  383  umount /mnt/manjaro
+  384  sudo umount /mnt/manjaro
+  385  cd /mnt/
+  386  ls
+  387  cd backaup
+  388  /boot
+  389  cd /boot/
+  390  ls
+  391  cd grub2/
+  392  nano grub2
+  393  sudo cd grub2
+  394  RTArocks1
+  395  sudo cd grub2
+  396  cd grub2
+  397  cd /boot/
+  398  ls
+  399  cd grub1
+  400  cd grub2
+  401  nano grub2
+  402  cd grub2
+  403  sudo cd grub2
+  404  sudo nano /grub2/grub.cfg
+  405  sudo cd grub2
+  406  sudo nano /grub2/grub.cfg
+  407  sudo nano /boot/grub2/grub.cfg
+  408  reboot
+  409  cd /boot/
+  410  ls
+  411  sudo cd grub2
+  412  cd grub2
+  413  nano /boot/grub2/grub.cfg
+  414  sudo nano /boot/grub2/grub.cfg
+  415  reboot
+  416  sudo nano /boot/grub2/grub.cfg
+  417  reboot
+  418  sudo cp /boot/grub2/grub.cfg ~/CIT173_lab7
+  419  cd CIT173_Lab7
+  420  ls
+  421  cd ~
+  422  ls
+  423  cd CIT173_Lab7
+  424  ls
+  425  sudo cp /boot/grub2/grub.cfg ~/CIT173_lab7
+  426  ls
+  427  sudo cp /boot/grub2/grub.cfg ~/CIT173_lab7
+  428  ls
+  429  sudo cp /boot/grub2/grub.cfg ~/CIT173_lab7
+  430  mkdir test
+  431  ls
+  432  sudo cp /boot/grub2/grub.cfg ~/CIT173_lab7
+  433  ls
+  434  sudo nano /boot/grub2/grub.cfg
+  435  history > ~/CIT173_Lab7/command-history.txt
